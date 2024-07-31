@@ -1,0 +1,16 @@
+to stage -> git add . (all files in that directory)
+             or
+            git add fileName 
+
+to commit -> git commit -m "message" ;
+
+restore back to staged -> git restore --staged fileName ;
+
+to see history of changes -> git log ;
+
+these commits are stacked upon each other i.e. u cannot remove a commit from midlle 
+
+to reset a commit to a known commit event -> git reset commit
+
+when u want to draft a commit u can put it to stash after staging it -> git stash
+u can get a clean env to work then
