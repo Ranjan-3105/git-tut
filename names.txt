@@ -1,0 +1,5 @@
+this is git tut 
+
+to stqage a file we do -> git add fileName 
+to commit/ add history -> git commit -m "message to be shown"
+to restore a commited repo back to staged -> git restore --staged fileName
